@@ -13,7 +13,7 @@ int binary_search_rec(int arr[], int start, int end, int x)
 
 int main(int argc, char** argv)
 {
-	int arr[] = { 10, 67, 89, 98, 99, 100, 198};
+	int arr[] = {10, 67, 89, 98, 99, 100, 198};
 	int length = sizeof(arr) / sizeof(arr[0]);
 	int start = 0;
 	int end = length - 1;
